@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoping Taobao</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+      body {
+        background: #f8f9fa;
+      }
+
+      .card {
+        transition: 0.3s;
+        border: none;
+      }
+
+      .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+      }
+
+      .card img {
+        height: 250px;
+        object-fit: cover;
+      }
+
+      .feature-icon {
+        font-size: 45px;
+      }
+
+      footer {
+        background: #212529;
+        color: white;
+        padding: 30px 0;
+      }
+    </style>
+  </head>
+  <body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm py-3">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="/homepage.html">
+            <i class="bi bi-bag-fill text-warning"></i>
+            Shop Taobao
+        </a>
+        <button class="navbar-toggler border-0" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav mx-auto">
+
+                <li class="nav-item mx-2">
+                    <a class="nav-link active" href="/homepage.html">
+                        <i class="bi bi-house-door me-1"></i>
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="/product.html">
+                        <i class="bi bi-grid me-1"></i>
+                        Products
+                    </a>
+                </li>
+
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="/about.html">
+                        <i class="bi bi-info-circle me-1"></i>
+                        About
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="container py-5">
+      <h2 class="text-center mb-5 fw-bold">Featured Products</h2>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img
+              src="https://cdn.mos.cms.futurecdn.net/E7oKNpmCRUGvQSzWqAkUXF-1200-80.jpg"/>
+
+            <div class="card-body">
+              <h4>Apple Watch</h4>
+
+              <p>Smart fitness tracking with premium Apple design.</p>
+              <a href="/product.html" class="btn btn-dark w-100"> View Product </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img
+              src="https://cdn.mos.cms.futurecdn.net/Q7LZEeQj46Hd3tBS5MiM2b.jpg"
+            />
+
+            <div class="card-body">
+              <h4>AirPods Pro</h4>
+
+              <p>Noise cancellation and crystal clear sound quality.</p>
+
+              <a href="/product.html" class="btn btn-dark w-100"> View Product </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img
+              src="https://macfinder.co.uk/wp-content/uploads/2022/12/img-MacBook-Air-13-Inch-60555-scaled.jpg"/>
+            <div class="card-body">
+              <h4> Macbook </h4>
+
+              <p>Lightweight laptop powered by Apple Silicon.</p>
+              <a href="/product.html" class="btn btn-dark w-100"> View Product </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img
+              src="https://www.reflex-active.com/cdn/shop/files/Screenshot_2024-11-28_143106_2048x.png?v=1732806107"/>
+
+            <div class="card-body">
+              <h4>Smart watch</h4>
+              <p>Advanced fitness tracking and seamless Apple connectivity.</p>
+              <a href="/product.html" class="btn btn-dark w-100"> View Product </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img
+              src="https://img.magnific.com/free-vector/microphone-headphones-retro-realistic-image_1284-14415.jpg?semt=ais_hybrid&w=740&q=80"/>
+
+            <div class="card-body">
+              <h4> Microphone </h4>
+              <p>Clear sound for vlog and interviews.</p>
+              <a href="#" class="btn btn-dark w-100"> View Product </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img
+              src="https://cdn.thewirecutter.com/wp-content/media/2026/03/BG-IPHONE-5335-3X2.jpg?auto=webp&quality=75&crop=1:1,smart&width=1024" />
+
+            <div class="card-body">
+              <h4>Iphone</h4>
+
+              <p>Powerful A19 chip, 48MP camera, smooth 120Hz display</p>
+              <a href="/product.html" class="btn btn-dark w-100"> View Product </a>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    <section class="bg-white py-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="feature-icon">🚚</div>
+
+            <h4>Free Shipping</h4>
+
+            <p>Free delivery on orders over $100.</p>
+          </div>
+
+          <div class="col-md-4">
+            <div class="feature-icon">🔒</div>
+
+            <h4>Secure Payment ber min pin thea nea song luy vinh</h4>
+
+            <p>100% secure online payment system.</p>
+          </div>
+
+          <div class="col-md-4">
+            <div class="feature-icon">⭐</div>
+
+            <h4>Quality Products</h4>
+
+            <p>Original products with official warranty.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<footer class="bg-dark text-light py-4 mt-5 w-100">
+  <div class="container text-center">
+    <h4 class="fw-bold text-warning">Shop Taobao</h4>
+    <p>Your trusted online store</p>
+  </div>
+</footer>
+
+
+  </body>
+</html>
